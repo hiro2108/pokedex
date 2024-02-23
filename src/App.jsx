@@ -53,6 +53,10 @@ function App() {
   return (
     <>
       <Navbar />
+      <div className="btn">
+        <button onClick={handlePrevPage}>← prev</button>
+        <button onClick={handleNextPage}>next →</button>
+      </div>
       <div className="App">
         {loading ? (<h1>loading...</h1>) : (
           <div className='pokeCardContainer'>
@@ -63,9 +67,8 @@ function App() {
         )}
       </div>
       <div className="btn">
-        <button onClick={handlePrevPage}>prev</button>
-        <button onClick={handleNextPage}>next</button>
-
+        <button onClick={handlePrevPage}>← prev</button>
+        <button onClick={handleNextPage}>next →</button>
       </div>
     </>
   );

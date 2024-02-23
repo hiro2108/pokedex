@@ -19,12 +19,13 @@
 .btn button{
   padding: 13px 32px;
   border: none;
-  background-color: #5257a3;
+  background-color: #D04838;
   box-shadow: 2px 8px 21px -2px #777777;
   border-radius: 5px;
   color: white;
   cursor: pointer;
   transition: all .3s;
+  font-weight: bold;
 }
 .btn button:hover{
   transform: translateY(5px);
